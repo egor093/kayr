@@ -1,0 +1,24 @@
+form{
+    background-color: indigo;
+    width: 25%;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px ;
+    font-size: 1.2em;
+}
+input{
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+    color: black;
+}
+input[type="text"]:focus{
+    background-color: white;
+}
+button{
+    background-color: navy;
+    box-shadow: 0 0 4px white;
+    color: white;
+}
+.data{
+    background-color: white;
+}
